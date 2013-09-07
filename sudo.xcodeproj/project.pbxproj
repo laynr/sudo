@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD08074912E4932F00017F04 /* s57x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08074612E4932F00017F04 /* s57x.png */; };
+		AD08074A12E4932F00017F04 /* s72x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08074712E4932F00017F04 /* s72x.png */; };
+		AD08074B12E4932F00017F04 /* s114x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD08074812E4932F00017F04 /* s114x.png */; };
+		AD7B96BB12E28B6E0096AA33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7B96BA12E28B6E0096AA33 /* UIKit.framework */; };
+		AD7B96BD12E28B6E0096AA33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7B96BC12E28B6E0096AA33 /* Foundation.framework */; };
+		AD7B96BF12E28B6E0096AA33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7B96BE12E28B6E0096AA33 /* CoreGraphics.framework */; };
+		AD7B96C512E28B6E0096AA33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD7B96C312E28B6E0096AA33 /* InfoPlist.strings */; };
+		AD7B96C812E28B6E0096AA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B96C712E28B6E0096AA33 /* main.m */; };
+		AD7B96CB12E28B6E0096AA33 /* sudoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B96CA12E28B6E0096AA33 /* sudoAppDelegate.m */; };
+		AD7B96CF12E28B6E0096AA33 /* sudoAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B96CE12E28B6E0096AA33 /* sudoAppDelegate_iPhone.m */; };
+		AD7B96D212E28B6E0096AA33 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7B96D012E28B6E0096AA33 /* MainWindow_iPhone.xib */; };
+		AD7B96D612E28B6E0096AA33 /* sudoAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B96D512E28B6E0096AA33 /* sudoAppDelegate_iPad.m */; };
+		AD7B96D912E28B6E0096AA33 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD7B96D712E28B6E0096AA33 /* MainWindow_iPad.xib */; };
+		AD917AE612E29BAE002982A6 /* sudo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD917ADB12E29BAE002982A6 /* sudo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD08074612E4932F00017F04 /* s57x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s57x.png; sourceTree = "<group>"; };
+		AD08074712E4932F00017F04 /* s72x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s72x.png; sourceTree = "<group>"; };
+		AD08074812E4932F00017F04 /* s114x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s114x.png; sourceTree = "<group>"; };
+		AD7B96B612E28B6E0096AA33 /* sudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7B96BA12E28B6E0096AA33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD7B96BC12E28B6E0096AA33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD7B96BE12E28B6E0096AA33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD7B96C212E28B6E0096AA33 /* sudo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sudo-Info.plist"; sourceTree = "<group>"; };
+		AD7B96C412E28B6E0096AA33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD7B96C612E28B6E0096AA33 /* sudo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sudo-Prefix.pch"; sourceTree = "<group>"; };
+		AD7B96C712E28B6E0096AA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD7B96C912E28B6E0096AA33 /* sudoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sudoAppDelegate.h; sourceTree = "<group>"; };
+		AD7B96CA12E28B6E0096AA33 /* sudoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sudoAppDelegate.m; sourceTree = "<group>"; };
+		AD7B96CD12E28B6E0096AA33 /* sudoAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sudoAppDelegate_iPhone.h; path = iPhone/sudoAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		AD7B96CE12E28B6E0096AA33 /* sudoAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = sudoAppDelegate_iPhone.m; path = iPhone/sudoAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		AD7B96D112E28B6E0096AA33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		AD7B96D412E28B6E0096AA33 /* sudoAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sudoAppDelegate_iPad.h; path = iPad/sudoAppDelegate_iPad.h; sourceTree = "<group>"; };
+		AD7B96D512E28B6E0096AA33 /* sudoAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = sudoAppDelegate_iPad.m; path = iPad/sudoAppDelegate_iPad.m; sourceTree = "<group>"; };
+		AD7B96D812E28B6E0096AA33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		AD917ADB12E29BAE002982A6 /* sudo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sudo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD7B96B312E28B6E0096AA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7B96BB12E28B6E0096AA33 /* UIKit.framework in Frameworks */,
+				AD7B96BD12E28B6E0096AA33 /* Foundation.framework in Frameworks */,
+				AD7B96BF12E28B6E0096AA33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD7B96AB12E28B6D0096AA33 = {
+			isa = PBXGroup;
+			children = (
+				AD7B96C012E28B6E0096AA33 /* sudo */,
+				AD7B96B912E28B6E0096AA33 /* Frameworks */,
+				AD7B96B712E28B6E0096AA33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7B96B712E28B6E0096AA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7B96B612E28B6E0096AA33 /* sudo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7B96B912E28B6E0096AA33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7B96BA12E28B6E0096AA33 /* UIKit.framework */,
+				AD7B96BC12E28B6E0096AA33 /* Foundation.framework */,
+				AD7B96BE12E28B6E0096AA33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD7B96C012E28B6E0096AA33 /* sudo */ = {
+			isa = PBXGroup;
+			children = (
+				AD7B96C912E28B6E0096AA33 /* sudoAppDelegate.h */,
+				AD7B96CA12E28B6E0096AA33 /* sudoAppDelegate.m */,
+				AD7B96CC12E28B6E0096AA33 /* iPhone */,
+				AD7B96D312E28B6E0096AA33 /* iPad */,
+				AD7B96C112E28B6E0096AA33 /* Supporting Files */,
+			);
+			path = sudo;
+			sourceTree = "<group>";
+		};
+		AD7B96C112E28B6E0096AA33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD08074612E4932F00017F04 /* s57x.png */,
+				AD08074712E4932F00017F04 /* s72x.png */,
+				AD08074812E4932F00017F04 /* s114x.png */,
+				AD917ADB12E29BAE002982A6 /* sudo.png */,
+				AD7B96C212E28B6E0096AA33 /* sudo-Info.plist */,
+				AD7B96C312E28B6E0096AA33 /* InfoPlist.strings */,
+				AD7B96C612E28B6E0096AA33 /* sudo-Prefix.pch */,
+				AD7B96C712E28B6E0096AA33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD7B96CC12E28B6E0096AA33 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				AD7B96CD12E28B6E0096AA33 /* sudoAppDelegate_iPhone.h */,
+				AD7B96CE12E28B6E0096AA33 /* sudoAppDelegate_iPhone.m */,
+				AD7B96D012E28B6E0096AA33 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		AD7B96D312E28B6E0096AA33 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				AD7B96D412E28B6E0096AA33 /* sudoAppDelegate_iPad.h */,
+				AD7B96D512E28B6E0096AA33 /* sudoAppDelegate_iPad.m */,
+				AD7B96D712E28B6E0096AA33 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD7B96B512E28B6E0096AA33 /* sudo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7B96DC12E28B6E0096AA33 /* Build configuration list for PBXNativeTarget "sudo" */;
+			buildPhases = (
+				AD7B96B212E28B6E0096AA33 /* Sources */,
+				AD7B96B312E28B6E0096AA33 /* Frameworks */,
+				AD7B96B412E28B6E0096AA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sudo;
+			productName = sudo;
+			productReference = AD7B96B612E28B6E0096AA33 /* sudo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7B96AD12E28B6D0096AA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Scoutic LLC";
+			};
+			buildConfigurationList = AD7B96B012E28B6D0096AA33 /* Build configuration list for PBXProject "sudo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD7B96AB12E28B6D0096AA33;
+			productRefGroup = AD7B96B712E28B6E0096AA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD7B96B512E28B6E0096AA33 /* sudo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD7B96B412E28B6E0096AA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7B96C512E28B6E0096AA33 /* InfoPlist.strings in Resources */,
+				AD7B96D212E28B6E0096AA33 /* MainWindow_iPhone.xib in Resources */,
+				AD7B96D912E28B6E0096AA33 /* MainWindow_iPad.xib in Resources */,
+				AD917AE612E29BAE002982A6 /* sudo.png in Resources */,
+				AD08074912E4932F00017F04 /* s57x.png in Resources */,
+				AD08074A12E4932F00017F04 /* s72x.png in Resources */,
+				AD08074B12E4932F00017F04 /* s114x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7B96B212E28B6E0096AA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7B96C812E28B6E0096AA33 /* main.m in Sources */,
+				AD7B96CB12E28B6E0096AA33 /* sudoAppDelegate.m in Sources */,
+				AD7B96CF12E28B6E0096AA33 /* sudoAppDelegate_iPhone.m in Sources */,
+				AD7B96D612E28B6E0096AA33 /* sudoAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD7B96C312E28B6E0096AA33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7B96C412E28B6E0096AA33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD7B96D012E28B6E0096AA33 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7B96D112E28B6E0096AA33 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AD7B96D712E28B6E0096AA33 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7B96D812E28B6E0096AA33 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD7B96DA12E28B6E0096AA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7B96DB12E28B6E0096AA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD7B96DD12E28B6E0096AA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sudo/sudo-Prefix.pch";
+				INFOPLIST_FILE = "sudo/sudo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD7B96DE12E28B6E0096AA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sudo/sudo-Prefix.pch";
+				INFOPLIST_FILE = "sudo/sudo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD7B96F612E28E070096AA33 /* Distrobution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Layne Moessing";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E68E6506-5FFD-4B2E-9CC3-EE5939F54243";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distrobution;
+		};
+		AD7B96F712E28E070096AA33 /* Distrobution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sudo/sudo-Prefix.pch";
+				INFOPLIST_FILE = "sudo/sudo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distrobution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD7B96B012E28B6D0096AA33 /* Build configuration list for PBXProject "sudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7B96DA12E28B6E0096AA33 /* Debug */,
+				AD7B96DB12E28B6E0096AA33 /* Release */,
+				AD7B96F612E28E070096AA33 /* Distrobution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7B96DC12E28B6E0096AA33 /* Build configuration list for PBXNativeTarget "sudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7B96DD12E28B6E0096AA33 /* Debug */,
+				AD7B96DE12E28B6E0096AA33 /* Release */,
+				AD7B96F712E28E070096AA33 /* Distrobution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD7B96AD12E28B6D0096AA33 /* Project object */;
+}
